@@ -460,8 +460,11 @@ Short form. Numbers are from the study unless marked as house style.
   square, 23% pill; the 9–16px "soft" radius is the weak-site default). Most strong heroes have no
   button at all, or one.
 - Navigation: wordmark, three to five plain links, one action. No bar chrome.
-- A control explains itself by its form, its label and its place. When it seems to need a sentence of
-  instructions beside it, redesign the control instead of adding the sentence.
+- A control explains how to use it by its form, its label and its place. When it seems to need a
+  sentence on how to operate it, redesign the control instead of adding the sentence. What a field
+  accepts is different. First remove the limit where you can: a date picker, or a parser that takes
+  any common format. A limit that remains, such as password rules or file type and size, stays visible
+  beside the field and is tied to it with `aria-describedby`.
 - The footer is a designed close, not a sitemap: on most strong sites the name returns at full width.
 
 ## Special cases
